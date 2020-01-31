@@ -18,5 +18,3 @@ def square_array(array)
    ##return the new array
    new_array
 end
-
-#   new_array << number * 2 
