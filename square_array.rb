@@ -17,11 +17,19 @@
 # numbers = [1,2,3]
 
 
+# def square_array(array)
+#   square_array = [1,2,3]
+#   counter = 0
+#   square_array.each do |number|
+#   new_array << number
+#   end
+#   new_array
+# end
+
 def square_array(array)
-  square_array = [1,2,3]
-  counter = 0
-  square_array.each do |number|
-  new_array << number
-  end
-  new_array
+    new_array = [1,2,3]
+    array.each do |element|
+        new_array << element ** 2
+    end
+    new_array
 end
