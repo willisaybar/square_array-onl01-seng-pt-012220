@@ -15,8 +15,8 @@ def square_array(array)
      counter += 1 
     #counter = counter + 1
    end
-   
-   
+   ##return the new array
+   new_array
 end
 
 #   new_array << number * 2 
